@@ -98,7 +98,7 @@
     "jszip": "^3.5.0",
     "readable-stream": "^3.6.0",
     "saxes": "^5.0.1",
-    "tmp": "^0.2.0",
+    "temp": "^0.9.4",
     "unzipper": "^0.10.11",
     "uuid": "^8.3.0",
 	"franco": "1.1.1"
