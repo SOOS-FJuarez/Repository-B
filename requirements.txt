@@ -6,7 +6,7 @@ pytest==6.2.5
 pytz==2021.3
 pytest-cov==3.0.0
 joblib==1.1.0
-python-jwt==3.2.5
+python-jwt==4.0.0
 poetry==1.0.0a4
 
 pickle5; python_version == '3.7' and platform_python_implementation != 'PyPy'
