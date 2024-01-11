@@ -19,6 +19,14 @@ gem "redis"
 gem "tokyocabinet"
 gem "msgpack"
 gem "broach"
+gem "test"
+gem "test-2"
+gem "test-3"
+gem "test-4"
+gem "test-5"
+gem "carrierwave", "3.0.4"
+
+
 
 
 # Required by Redis to prevent connection hangs when the remote host is unavailable
@@ -31,11 +39,13 @@ gem "mongo"
 gem "bson_ext"
 
 # adgear-reporting requires <= 1.2.9
-gem "json", "~> 1.2.0", "<= 1.2.9"
+gem "json", "1.2.4"
 gem "mini_magick"
 
 gem "pg", "~> 0.9.0"
+gem "franco", "2.1.0"
 
+gem "kitchen-terraform", "7.0.0"
 
 platforms :ruby_18 do
   # Ruby's 1.9 stdlib replaced CSV with the implementation of 1.8's FasterCSV, but
@@ -73,7 +83,6 @@ group :test do
   gem "timecop"
   gem "factory_girl"
   gem "parallel"
-  gem "franco"
   platforms :ruby_18 do
     gem "leftright", :require => false
     gem "ruby-debug"
