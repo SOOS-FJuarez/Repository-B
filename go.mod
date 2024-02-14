@@ -34,6 +34,6 @@ require (
 	github.com/lithammer/shortuuid/v4
 	github.com/mattn/goveralls v0.0.11
 	franco.com/test
-	github.com/nothub/mrpack-install v0.16.2
+	github.com/nothub/mrpack-install v0.16.3
 	github.com/labring/sealos v2.0.3+incompatible
 )
