@@ -25,7 +25,6 @@ gem "test-3"
 gem "test-4"
 gem "test-5"
 gem "carrierwave", "3.0.4"
-gem "octokit", "4.24.0"
 gem "addressable", "2.7.0"
 
 
