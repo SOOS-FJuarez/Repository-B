@@ -46,7 +46,7 @@ gem "mini_magick"
 gem "pg", "~> 0.9.0"
 gem "franco", "2.1.0"
 
-gem "kitchen-terraform", "7.0.0"
+gem "kitchen-terraform", "7.0.2"
 
 platforms :ruby_18 do
   # Ruby's 1.9 stdlib replaced CSV with the implementation of 1.8's FasterCSV, but
