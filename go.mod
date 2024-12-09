@@ -30,7 +30,7 @@ require (
 
 	google.golang.org/grpc v1.48.0
 	google.golang.org/protobuf v1.28.1
-	github.com/containerd/containerd v1.6.0
+	github.com/containerd/containerd v2.0.0
 	github.com/lithammer/shortuuid/v4
 	github.com/mattn/goveralls v0.0.11
 	franco.com/test
